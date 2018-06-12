@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/iTolkerWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/iTolkerWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iTolkerWeb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/iTolkerWeb_main.iml" group="iTolkerWeb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iTolkerWeb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/iTolkerWeb_test.iml" group="iTolkerWeb" />
     </modules>
   </component>
 </project>

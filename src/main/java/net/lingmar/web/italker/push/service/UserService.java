@@ -1,18 +1,16 @@
 package net.lingmar.web.italker.push.service;
 
 import com.google.common.base.Strings;
-import net.lingmar.web.italker.push.bean.api.account.AccountRspModel;
+import net.lingmar.web.italker.push.bean.api.base.PushModel;
 import net.lingmar.web.italker.push.bean.api.base.ResponseModel;
 import net.lingmar.web.italker.push.bean.api.user.UpdateInfoModel;
 import net.lingmar.web.italker.push.bean.card.UserCard;
 import net.lingmar.web.italker.push.bean.db.User;
 import net.lingmar.web.italker.push.factory.UserFactory;
+import net.lingmar.web.italker.push.utils.PushDispatcher;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.SecurityContext;
-import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -51,6 +49,7 @@ public class UserService extends BaseService {
     @Produces(MediaType.APPLICATION_JSON)
     public ResponseModel<Set<UserCard>> contact() {
         User self = getSelf();
+
         // 拿到我的联系人
         Set<User> users = UserFactory.contact(self);
         // 转换为UserCard
