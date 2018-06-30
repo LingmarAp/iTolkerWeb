@@ -1,5 +1,6 @@
 package net.lingmar.web.italker.push.bean.db;
 
+import net.lingmar.web.italker.push.bean.api.group.GroupCreateModel;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -49,6 +50,17 @@ public class Group {
     private User owner;
     @Column(nullable = false, insertable = false, updatable = false)
     private String ownerId;
+
+    public Group() {
+
+    }
+
+    public Group(User owner, GroupCreateModel model) {
+        this.owner = owner;
+        this.description = model.getDesc();
+        this.picture = model.getPicture();
+        this.name = model.getName();
+    }
 
     public String getId() {
         return id;

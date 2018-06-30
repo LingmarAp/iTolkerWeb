@@ -67,8 +67,13 @@ public class MessageService extends BaseService {
 
     // 发送到群
     private ResponseModel<MessageCard> pushToGroup(User sender, MessageCreateModel model) {
-        Group group = GroupFactory.findById(model.getReceiverId());
-        return null;
+        Group group = GroupFactory.findById(sender, model.getReceiverId());
+        if(group == null)
+            return ResponseModel.buildNotFoundUserError("Can't find receiver group");
+
+        Message message = MessageFactory.add(sender, group, model);
+
+        return buildAndPushResponse(sender, message);
     }
 
     // 推送构建并返回信息

@@ -6,6 +6,7 @@ import net.lingmar.web.italker.push.bean.api.base.ResponseModel;
 import net.lingmar.web.italker.push.bean.api.user.UpdateInfoModel;
 import net.lingmar.web.italker.push.bean.card.UserCard;
 import net.lingmar.web.italker.push.bean.db.User;
+import net.lingmar.web.italker.push.factory.PushFactory;
 import net.lingmar.web.italker.push.factory.UserFactory;
 import net.lingmar.web.italker.push.utils.PushDispatcher;
 
@@ -85,7 +86,8 @@ public class UserService extends BaseService {
             return ResponseModel.buildServiceError();
         }
 
-        // TODO 通知我关注的人我关注了他
+        // 通知我关注的人我关注了他
+        PushFactory.pushFollow(followUser, new UserCard(self));
 
         // 返回关注人的信息
         return ResponseModel.buildOk(new UserCard(followUser, true));

@@ -40,10 +40,10 @@ public class PushHistory {
     private String receiverId;
 
     // 发送者
-    @ManyToOne(optional = false, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "senderId")
     private User sender;
-    @Column(nullable = false, updatable = false, insertable = false)
+    @Column(updatable = false, insertable = false)
     private String senderId;
 
     // 接受者当前状态下的设备推送ID

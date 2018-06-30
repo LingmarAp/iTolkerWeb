@@ -2,6 +2,7 @@ package net.lingmar.web.italker.push.bean.card;
 
 import com.google.gson.annotations.Expose;
 import net.lingmar.web.italker.push.bean.db.User;
+import net.lingmar.web.italker.push.utils.Hib;
 
 import java.time.LocalDateTime;
 
@@ -55,7 +56,15 @@ public class UserCard {
         this.modifyAt = user.getUpdateAt();
         this.isFollow = isFollow;
 
-        // TODO 得到关注人和粉丝的数量
+        // 得到关注人和粉丝的数量
+        Hib.queryOnly(session -> {
+            // 重新加载一次用户信息
+            session.load(user, user.getId());
+
+            follows = user.getFollowers().size();
+            following = user.getFollowing().size();
+        });
+
     }
 
     public String getId() {
