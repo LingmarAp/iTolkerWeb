@@ -20,6 +20,8 @@ public class PushModel {
     public static final int ENTITY_TYPE_MESSAGE = 200;
     public static final int ENTITY_TYPE_ADD_FRIEND = 1001;
     public static final int ENTITY_TYPE_ADD_GROUP = 1002;
+    public static final int ENTITY_TYPE_JOIN_FRIEND = 1011;
+    public static final int ENTITY_TYPE_JOIN_GROUP = 1012;
     public static final int ENTITY_TYPE_ADD_GROUP_MEMBERS = 1003;
     public static final int ENTITY_TYPE_MODIFY_GROUP_MEMBERS = 2001;
     public static final int ENTITY_TYPE_EXIT_GROUP_MEMBERS = 3001;

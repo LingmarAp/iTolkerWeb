@@ -196,6 +196,36 @@ public class PushFactory {
     }
 
     /**
+     * 通知群管理员，有新的成员申请加入到群
+     *
+     * @param adminMembers 群管理员
+     * @param userCard     用户信息
+     */
+    public static void pushGroupAdminJoin(Set<GroupMember> adminMembers, UserCard userCard) {
+        // 发送者
+        PushDispatcher pusher = new PushDispatcher();
+
+        // 一个历史记录列表
+        List<PushHistory> histories = new ArrayList<>();
+
+        // 当前新增用户的集合的 JSON字符串
+        String entity = TextUtil.toJson(userCard);
+
+        // 给每一个管理员构建一条信息
+        addGroupMembersPushModel(pusher, histories, adminMembers,
+                entity, PushModel.ENTITY_TYPE_JOIN_GROUP);
+
+        // 保存到数据库
+        Hib.queryOnly(session -> {
+            for (PushHistory history : histories) {
+                session.save(history);
+            }
+        });
+
+        pusher.submit();
+    }
+
+    /**
      * 推送账户退出消息
      *
      * @param user   接受者
@@ -224,7 +254,7 @@ public class PushFactory {
      * 给一个朋友推送我的信息
      *
      * @param receiver 接受者
-     * @param userCard   我的卡片信息
+     * @param userCard 我的卡片信息
      */
     public static void pushFollow(User receiver, UserCard userCard) {
         // 一定是相互关注了的

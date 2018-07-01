@@ -7,24 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ffb068-9ea8-45e2-97f8-d6a9e8ac50c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupCreateModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberAddModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/JoinModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupJoinModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/ApplyFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupMemberFactory.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/api/base/PushModel$Entity.class" afterPath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/api/base/PushModel$Entity.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/api/base/PushModel.class" afterPath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/api/base/PushModel.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/db/Apply.class" afterPath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/db/Apply.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/db/GroupMember.class" afterPath="$PROJECT_DIR$/build/libs/exploded/iTolkerWeb-1.0-SNAPSHOT.war/WEB-INF/classes/net/lingmar/web/italker/push/bean/db/GroupMember.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/iTolkerWeb-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/iTolkerWeb-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/UserCard.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/UserCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Group.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Group.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/api/base/PushModel$Entity.class" afterPath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/api/base/PushModel$Entity.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/api/base/PushModel.class" afterPath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/api/base/PushModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/db/Apply.class" afterPath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/db/Apply.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/db/GroupMember.class" afterPath="$PROJECT_DIR$/out/production/classes/net/lingmar/web/italker/push/bean/db/GroupMember.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/PushHistory.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/PushHistory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/PushFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/PushFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/MessageService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java" afterPath="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -105,35 +107,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroupService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+            <state relative-caret-position="1841">
+              <caret line="345" column="25" lean-forward="false" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#280454#280455#0" expanded="true" />
-                <element signature="e#280481#280482#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java">
+      <file leaf-file-name="GroupMemberUpdateModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1299">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="478">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupMemberFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupMemberFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplyCard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/ApplyCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -142,44 +164,21 @@
       <file leaf-file-name="GroupMember.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupMemberAddModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberAddModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#3348#3349#0" expanded="true" />
+                <element signature="e#3376#3377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java">
+      <file leaf-file-name="PushModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PushFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/PushFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -196,10 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alias</find>
-      <find>lastReceivedAt</find>
-      <find>qiujuer</find>
-      <find>Application</find>
       <find>clent</find>
       <find>TB_PUSH_HISTORY</find>
       <find>CLIENT_PLUGIN_AUTH</find>
@@ -222,6 +217,14 @@
       <find>entityType</find>
       <find>saveOrUpdate</find>
       <find>senderId</find>
+      <find>A</find>
+      <find>管理员</find>
+      <find>groupId</find>
+      <find>ENTITY_TYPE_ADD_GROUP</find>
+      <find>ENTITY_TYPE_ADD_FRIEND</find>
+      <find>update</find>
+      <find>updateTo</find>
+      <find>1012</find>
     </findStrings>
     <replaceStrings>
       <replace>lingmar</replace>
@@ -588,7 +591,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/UserFollow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/provider/GsonProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/utils/Hib.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/utils/TextUtil.java" />
@@ -604,7 +606,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/BaseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/ApplyCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/MessageCard.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -618,16 +619,23 @@
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupCreateModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Group.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberAddModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/UserCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/PushHistory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupJoinModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/JoinModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/ApplyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/PushFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupMemberFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java" />
       </list>
     </option>
   </component>
@@ -651,10 +659,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
-    <option name="y" value="194" />
-    <option name="width" value="1432" />
-    <option name="height" value="1448" />
+    <option name="x" value="160" />
+    <option name="y" value="186" />
+    <option name="width" value="1629" />
+    <option name="height" value="1240" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1281,8 +1289,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1342,9 +1351,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="push" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iTolkerWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -1359,8 +1366,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1372,7 +1378,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="GroupMemC&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java&#10;GroupM&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java&#10;GroupCar&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;G&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;GroupCard&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;UserF&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;UserFa&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;GroupMember&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java&#10;Mess&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/api/message/MessageCreateModel.java&#10;Fact&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;Ap&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/Application.java" />
+    <property name="SearchEverywhereHistoryKey" value="Gr&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java&#10;GroupMember&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java&#10;GroupMemC&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java&#10;GroupM&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java&#10;GroupCar&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;G&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;GroupCard&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java&#10;UserF&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;UserFa&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;Mess&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/bean/api/message/MessageCreateModel.java&#10;Fact&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/factory/UserFactory.java&#10;Ap&#9;FILE&#9;file://C:/Users/Lingmar/Documents/JAVA WS/IdeaWS/iTolkerWeb/src/main/java/net/lingmar/web/italker/push/Application.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1638,11 +1644,13 @@
       <workItem from="1530092768684" duration="2063000" />
       <workItem from="1530223251154" duration="700000" />
       <workItem from="1530346070568" duration="12452000" />
+      <workItem from="1530400630498" duration="454000" />
+      <workItem from="1530401392892" duration="10088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192439000" />
+    <option name="totallyTimeSpent" value="202981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1654,7 +1662,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="194" width="1432" height="1448" extended-state="0" />
+    <frame x="160" y="186" width="1629" height="1240" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34011975" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1666,7 +1675,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56975836" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44465116" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281372" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1677,7 +1686,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37802026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289166" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982327" sideWeight="0.4952381" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27974278" sideWeight="0.4952381" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25965664" sideWeight="0.50476193" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1736,7 +1745,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="58" />
+      <option name="time" value="65" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1745,62 +1754,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1-m05/2463ebf6800a82b73b2293556a368c783d743902/javax.ws.rs-api-2.1-m05-sources.jar!/javax/ws/rs/core/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="599" column="34" lean-forward="false" selection-start-line="599" selection-start-column="34" selection-end-line="599" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1-m05/2463ebf6800a82b73b2293556a368c783d743902/javax.ws.rs-api-2.1-m05-sources.jar!/javax/ws/rs/core/SecurityContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/UserFollow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/provider/AuthRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/user/UpdateInfoModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gexin.platform/gexin-rp-sdk-base/4.0.0.14/f007ca19302502c41af442e39669015167935b30/gexin-rp-sdk-base-4.0.0.14.jar!/com/gexin/rp/sdk/base/IPushResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1833,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1928,32 +1880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/ApplyCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/message/MessageCreateModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1531">
           <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/ResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="137" column="49" lean-forward="false" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1979,7 +1909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="491" column="27" lean-forward="false" selection-start-line="491" selection-start-column="27" selection-end-line="491" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2010,24 +1939,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupCreateModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="675">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
@@ -2037,7 +1954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2049,33 +1965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberAddModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/GroupMemberCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2083,42 +1976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10350">
           <caret line="430" column="9" lean-forward="false" selection-start-line="430" selection-start-column="9" selection-end-line="430" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280454#280455#0" expanded="true" />
-            <element signature="e#280481#280482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1299">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2131,11 +1988,183 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupCreateModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/account/RegisterModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/ResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="148" column="68" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/ApplyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/PushModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberAddModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/user/UpdateInfoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/GroupMemberFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/card/ApplyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.26-b03/bedcfdc4480e0bed601c9d918d8ddcd1e56a4546/jersey-server-2.26-b03-sources.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="73" column="87" lean-forward="false" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupMemberUpdateModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/group/GroupJoinModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/api/base/JoinModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/Apply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/factory/PushFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+        <state relative-caret-position="23">
+          <caret line="203" column="23" lean-forward="false" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/bean/db/GroupMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#3348#3349#0" expanded="true" />
+            <element signature="e#3376#3377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/lingmar/web/italker/push/service/GroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1841">
+          <caret line="345" column="25" lean-forward="false" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

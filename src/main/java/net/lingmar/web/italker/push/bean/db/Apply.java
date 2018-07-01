@@ -1,5 +1,7 @@
 package net.lingmar.web.italker.push.bean.db;
 
+import net.lingmar.web.italker.push.bean.api.base.JoinModel;
+import net.lingmar.web.italker.push.bean.api.group.GroupJoinModel;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -41,7 +43,7 @@ public class Apply {
     // 目标id
     // type->TYPE_ADD_USER: User.id
     // type->TYPE_ADD_GROUP: Group.id
-    //    @Column(nullable = false)
+    @Column(nullable = false)
     private String targetId;
 
     // 创建时间戳，在创建时就已经写入
@@ -61,6 +63,17 @@ public class Apply {
     private User applicant;
     @Column(updatable = false, insertable = false)
     private String applicantId;
+
+    public Apply() {
+    }
+
+    public Apply(JoinModel model, User applicant, String targetId, int type) {
+        this.description = model.getDescription();
+        this.attach = model.getAttach();
+        this.applicant = applicant;
+        this.targetId = targetId;
+        this.type = type;
+    }
 
     public String getId() {
         return id;

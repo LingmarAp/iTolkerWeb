@@ -10,9 +10,9 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "TB_GROUP_MEMBER")
 public class GroupMember {
-    public static final int NOTIFY_LEVEL_INVALID = -1;   // 不接受消息
-    public static final int NOTIFY_LEVEL_NONE = 0;   // 默认通知级别
-    public static final int NOTIFY_LEVEL_CLOSE = 1;   // 接受消息不提示
+    public static final int NOTIFY_LEVEL_INVALID = 1;   // 不接受消息
+    public static final int NOTIFY_LEVEL_NONE = 2;   // 默认通知级别
+    public static final int NOTIFY_LEVEL_CLOSE = 3;   // 接受消息不提示
 
     public static final int PERMISSION_TYPE_NONE = 0;   // 默认权限，普通成员
     public static final int PERMISSION_TYPE_ADMIN = 1;   // 管理员
